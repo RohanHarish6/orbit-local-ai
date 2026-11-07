@@ -1,0 +1,20 @@
+[
+  {
+    "name": "OpenAssistant OASST1",
+    "dataset": "OpenAssistant/oasst1",
+    "config": "default",
+    "split": "train",
+    "license": "Apache-2.0",
+    "homepage": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+    "viewer": "https://datasets-server.huggingface.co/rows"
+  },
+  {
+    "name": "Databricks Dolly 15k",
+    "dataset": "databricks/databricks-dolly-15k",
+    "config": "default",
+    "split": "train",
+    "license": "CC BY-SA 3.0",
+    "homepage": "https://huggingface.co/datasets/databricks/databricks-dolly-15k",
+    "viewer": "https://datasets-server.huggingface.co/rows"
+  }
+]

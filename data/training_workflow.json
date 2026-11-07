@@ -1,0 +1,25 @@
+{
+  "name": "Orbit local fine-tuning",
+  "mode": "offline-lora",
+  "resources": [
+    {
+      "name": "SOP CR Fine-tuning Plugin",
+      "source": "NVIDIA/sop-monitoring-blueprints",
+      "role": "data and quality gates",
+      "adapted": true
+    },
+    {
+      "name": "SOP Fine-Tuning Orchestrator",
+      "source": "NVIDIA/sop-monitoring-blueprints",
+      "role": "phase orchestration and progress reporting",
+      "adapted": true
+    }
+  ],
+  "phases": [
+    "load provenance-tagged examples",
+    "tokenize local dataset",
+    "train LoRA adapter",
+    "save adapter and metrics",
+    "serve adapter locally"
+  ]
+}

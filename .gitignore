@@ -1,0 +1,15 @@
+node_modules/
+dist/
+models/
+__pycache__/
+.impeccable/
+.env
+.env.*
+!.env.example
+*.log
+*.pyc
+data/memory.jsonl
+data/eval_latest.json
+data/training_status.json
+data/orbit-adapter/
+
