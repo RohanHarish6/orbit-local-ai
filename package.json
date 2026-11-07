@@ -1,9 +1,18 @@
 {
   "name": "local-orbit",
-  "private": true,
+  "private": false,
   "version": "0.1.0",
   "description": "A scenic, local-first AI workspace for everyday tasks.",
   "author": "Orbit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RohanHarish6/orbit-local-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RohanHarish6/orbit-local-ai/issues"
+  },
+  "homepage": "https://github.com/RohanHarish6/orbit-local-ai",
   "type": "module",
   "main": "electron-main.mjs",
   "scripts": {

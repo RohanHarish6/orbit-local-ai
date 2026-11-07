@@ -1,6 +1,25 @@
 # Orbit
 
+[![Build](https://github.com/RohanHarish6/orbit-local-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/RohanHarish6/orbit-local-ai/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/RohanHarish6/orbit-local-ai)](https://github.com/RohanHarish6/orbit-local-ai/graphs/contributors)
+
+> **Orbit is open source.** Build a more private, calm, and capable local AI workspace with us.
+
 Orbit is a local-first AI workspace for everyday tasks. The dashboard keeps the active task, permissions, local runtime, system trace, and generated artifacts visible in one calm surface.
+
+The project is intentionally transparent about its limits: local inference, optional online escalation, explicit provider permissions, auditable memory, and deterministic verification instead of “magic” capability claims.
+
+## Contribute
+
+Orbit welcomes contributors of every experience level. You can help by improving the scenic interface, adding local model adapters, strengthening autonomous verification, documenting setup on different hardware, testing provider failover, or proposing safer generation workflows.
+
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+2. Browse [good first issues](https://github.com/RohanHarish6/orbit-local-ai/issues?q=is%3Aissue+label%3A%22good+first+issue%22) or open a discussion about an idea.
+3. Fork the repository, create a focused branch, and make the smallest complete change.
+4. Run `npm run build` and the relevant local checks before opening a pull request.
+
+If Orbit is useful to you, starring the repository helps other builders discover it. Sharing the project with local-AI, privacy, accessibility, and creative-tool communities is also appreciated.
 
 The native runtime does **not** require Ollama. It is a Python worker launched directly by the Node gateway and requires a local Transformers model configured through `ORBIT_MODEL_PATH` or `data/model_config.json`. It will not silently downgrade to a weaker fallback model.
 
@@ -187,3 +206,10 @@ reliability and task completion around the local model; it does not turn a
 3B quantized model into a frontier foundation model. Arbitrary shell,
 browser, network, and credential access remain disabled unless added as
 explicit, auditable adapters.
+
+## Project status
+
+Orbit is an active experimental open-source project. The local-first runtime
+and scenic workspace are usable today; PDF/image/video generation, robust
+browser retrieval, and frontier-level benchmarking remain contributor-friendly
+areas for improvement. See the issue tracker for current priorities.
